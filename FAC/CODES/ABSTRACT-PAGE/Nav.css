@@ -1,0 +1,49 @@
+.Nav-background{
+  padding: 0 0 0 20px;
+  Display: flex;
+  align-items: start;
+  flex-direction: column;
+  position: fixed;
+  top: 110px;
+  bottom: 0;
+  width: 180px;
+}
+
+.Home-button { background-color: transparent;
+  border: none;
+  color: rgb(164,0,1);
+  font-weight: bolder;
+  font-size: 15px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.Home-button:hover {
+  color: rgb(238, 165, 0);
+  text-decoration: underline;
+}
+.file-image {
+  width: fit-content;
+  background-color: gray;
+  padding: 15px 5px 15px 5px;
+  margin-top: 100px;
+}
+.Image {
+  width: 120px;
+}
+.Date-header, .Author, .File-Header {
+  margin: 5px 0 5px 0 ;
+  font-size: 16px;
+}
+.Link {
+  margin-bottom: 10px;
+}
+.link {
+  color: black;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+.link:hover {
+  color: rgb(164,0,1);
+  text-decoration: underline;
+}

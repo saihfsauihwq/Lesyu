@@ -1,0 +1,104 @@
+.background {
+  margin:20px 0 0 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Profile-Page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px #bbb;
+  width: 93%;
+  position: relative;
+}
+
+.Profile-Page h2 {
+  color: #333;
+}
+.ID-number {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+.ID-number label {
+  font-weight: bold;
+  color: #333;
+}
+
+.Profile-Info {
+  display: flex;
+  width: 800px;
+  justify-content: space-between;
+}
+
+.Profile-Info .Info-Column {
+  width: 45%;
+}
+
+.Profile-Info .Info-Item {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+.Profile-Info label {
+  font-weight: bold;
+  color: #333;
+}
+
+.Profile-Info input {
+  color: #333;
+  font-size: 16px;
+  text-align: end;
+  border: none;
+}
+.Profile-Info input:focus {
+  outline: none;
+}
+.profimg {
+  background-color: aquamarine;
+  border: 1px solid rgb(164,0,1);
+  width: 130px;
+  height: 130px;
+  position: absolute;
+  left: 60px;
+  top: 20px;
+}
+.Profile-Info select {
+  color: #333;
+  font-size: 16px;
+  text-align: center;
+  border: none;
+  background-color: transparent;
+}
+.Profile-Info select:focus {
+  outline: none;
+
+}
+.savebtn {
+  background-color: rgb(164,0,1);
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+}

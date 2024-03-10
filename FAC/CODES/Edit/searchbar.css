@@ -1,0 +1,35 @@
+.searchbar-background{
+  margin-left: 110px;
+  background-color:  rgb(233, 232, 230);
+  display: flex;
+  padding: 10px 0 10px 0;
+  align-items: center;
+  justify-content: center;
+}
+.Searchbar {
+  background-color: rgb(249, 249, 249);
+  width: 800px;
+  padding: 13px 0 13px 0;
+  border-radius: 30px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border: 1px solid gray;
+  padding-left: 20px;
+  font-size: 15px;
+}
+.Searchbar:focus {
+  outline: none;
+}
+.Searchbar::placeholder {
+  font-size: 15px;
+}
+.search-icon {
+  width: 30px;
+  padding: 4px 15px 4px 0;
+}
+.search-icon-button {
+  border: 1px solid gray;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-left: none;
+}

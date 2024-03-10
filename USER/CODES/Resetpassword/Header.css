@@ -1,0 +1,29 @@
+.Header-background {
+  background-color: rgb(164,0,1);
+  height: 110px;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  position: relative;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+.Logo-icon {
+  margin-left: 5px;
+  width: 90px;
+}
+.Name {
+font-family: 'Times New Roman', Times, serif;
+font-size: 40px;
+font-weight: lighter;
+color: white;
+}
+.line {
+   color: white;
+  font-weight: 50px;
+  font-style: italic;
+}
+.Title {
+  margin-left: 10px;
+} 

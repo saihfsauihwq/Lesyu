@@ -1,0 +1,26 @@
+.Nav-Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 110px;
+  left: 0;
+  bottom: 0;
+  width: 180px;
+  padding: 20px 0 0 0;
+}
+.Nav-Container ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.Nav-Item a {
+  text-decoration: none;
+  color: black;
+  margin: 5px 0;
+}
+.Nav-Item a:hover {
+  color: rgb(164,0,1);
+  text-decoration: underline;
+}

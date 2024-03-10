@@ -1,0 +1,59 @@
+.Nav-Section {
+  box-shadow: 0px 0px 10px #bbb;
+  border-bottom: none;
+  border-top: none;
+  border-left: none;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  bottom: 0;
+  top: 110px;
+  width: 200px;
+}
+.nav_bar {
+  color: white;
+  text-decoration: none;
+}
+
+.Nav-Section ul {
+  list-style-type: none;
+  padding: 0;
+}
+.user-ID {
+  background-image: url('/WRRL/USER/CODES/Profile/Images/Background-photo.jpg');
+  background-size: contain;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  color: rgb(234, 234, 234);
+  padding: 10px;
+  align-items: center;
+  justify-content: End;
+  padding: 20px;
+}
+.IDnum {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+}
+.label {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+.Nav-Section ul li {
+  padding: 10px;
+  font-size:13px;
+  border: 0.3px solid #bcb9b9b1;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+.Nav-Section ul li:hover {
+  background-color: rgba(148, 147, 144, 0.153);
+  cursor: pointer;
+}
+.nav_bar {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}

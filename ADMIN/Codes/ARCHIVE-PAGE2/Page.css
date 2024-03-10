@@ -1,0 +1,31 @@
+.page_con {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.pagination {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  font-size: 15px;
+  padding: 6px 10px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  border: 1px solid #ddd;
+  margin: 0 4px;
+}
+
+.pagination a.active,
+.pagination a:hover:not(.active) {
+  background-color: rgb(252, 185, 29);
+}
+
+.pagination a.active {
+  background-color: rgb(164,0,1);
+  color: white;
+  border: 1px solid rgb(164,0,1);
+}

@@ -1,0 +1,117 @@
+.container {
+  margin: 0 220px 0 220px;
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 20px;
+}
+.column1 {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin: 20px 30px 0 0 ;
+  justify-content: start;
+}
+.column2 {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  margin: 0 0 0 30px;
+  width: 550px;
+
+}
+.Title-input, .Authors, .DOI {
+  padding: 5px;
+  margin: 0 0 0 0;
+  border-radius: 6px;
+  border: 2px solid rgb(164,0,1);
+  width: 300px;
+  font-size: 14px;
+}
+.Title-input:focus, .Authors:focus, .DOI:focus{
+  outline: none;
+}
+.Abstract, .Description {
+  font-size: 14px;
+  border-radius: 6px;
+  border: 2px solid rgb(164,0,1);
+}
+.Abstract:focus, .Description:focus {
+  outline: none;
+}
+.Head1{
+  font-size: 14px;
+  font-weight: bolder;
+  margin-top: 15px;
+}
+.Date {
+  color: rgb(156, 154, 154);
+  width: 150px;
+  font-size: 15px;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 10px;
+  border: 2px solid rgb(164,0,1);
+}
+.Date:focus {
+  outline: none;
+}
+.Publish {
+  width: 130px;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 10px;
+  border: 2px Solid rgb(164,0,1);
+  border-radius: 10px;
+  margin: 0 auto;
+  background-color: transparent;
+}
+.Publish:hover {
+ background-color: rgb(253, 197, 65);
+ color: whitesmoke;
+}
+.file {
+  display: none;
+}
+.dp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Upload-Here {
+  border: 2px Solid rgb(164,0,1);
+  width: 400px;
+  border: none;
+  color: rgb(164,0,1);
+  border-radius: 10px;
+  padding: 50px 0 50px 0;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.Upload-Here:hover{
+  background-color: rgb(253, 197, 65);
+  color: whitesmoke;
+}
+.Strand {
+  border: 2px solid rgb(164,0,1);
+  width: 100px;
+  border-radius: 10px;
+  padding: 10px;
+  color: rgb(164,0,1);
+  margin: 0 10px 0 0;
+}
+.Strand:focus{
+  outline: none;
+}
+.pubstat {
+  border: 2px solid rgb(164,0,1);
+  width: 150px;
+  border-radius: 10px;
+  padding: 10px;
+  color: rgb(164,0,1);
+}
+.pubstat:focus{
+  outline: none;
+}
+

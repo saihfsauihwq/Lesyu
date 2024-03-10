@@ -1,0 +1,78 @@
+.Nav-background{
+  Display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: fixed;
+  top: 110px;
+  bottom: 0;
+  left: 20px;
+  width: auto;
+}
+.filtersec{
+  margin-top: 80px;
+  font-size: 18px;
+  color: rgb(164,0,1);
+}
+.Strands {
+  padding-left: 10px;
+  border-radius: 5px;
+  border: 1px solid rgb(164,0,1);
+  font-size: 12px;
+  font-weight: bold;
+  margin: 10px 0 25px 0;
+  height: 40px;
+  width: 150px
+}
+.Search-Author {
+  border: 1px solid rgb(164,0,1);
+  font-size: 12px;
+  padding: 12px 8px ;
+  border-radius: 5px;
+  font-weight: bold;
+  margin: 10px 0 25px 0;
+  width: 150px
+}
+.Search-Author:focus {
+  outline: none;
+}
+.Year {
+  display: block;
+  margin: 0 0 5px 0;
+  font-weight: bold;
+  color: white;
+  text-align: start;
+}
+.yearpicker{
+  display: inline-block;
+}
+.to {
+  display: inline-block;
+  margin: 0 5px 0 5px;
+  font-size: 12px;
+  color: rgb(164,0,1);
+}
+.Year-select {
+  font-size: 13px;
+  padding: 10px 0 10px 0;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 1px solid rgb(164,0,1);
+}
+.Year-select:focus {
+  outline: none;
+}
+.Reset, .Search {
+  font-size: 14px;
+  color: black;
+  border: 1px solid rgb(164,0,1);
+  border-radius: 5px;
+  background-color: transparent;
+  padding: 6px;
+  margin-top: 10px;
+  transition: color 0.2s;
+}
+.Reset:hover, .Search:hover  {
+  color: white;
+  background-color: rgb(164,0,1);
+}

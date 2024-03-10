@@ -1,0 +1,47 @@
+.ABSTRACT-CONTENT {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  align-items: center;
+  margin: 20px 220px 0 220px;
+  padding-bottom: 30px;
+}
+.Research-Title {
+  font-size: 30px;
+  display: block;
+  color: rgb(164,0,1);
+  margin-bottom: 20px;
+}
+.Info {
+  text-align: start;
+  width: 700px;
+}
+.Abstract{
+  display: block;
+  margin: 0 auto;
+  color: gray;
+  margin-bottom: 20px;
+}
+.Abstract-label {
+  font-size: 16px;
+  margin: 0 0 10px 0;
+}
+.Abstract-Container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.View-button, .Restore{
+  padding: 5px;
+  border-radius: 3px;
+  border: none;
+  margin: 10px 10px;
+  background-color: rgb(164,0,1);
+  color: white;
+  transition: background-color 0.2s, color 0.2s;
+}
+.View-button:hover, .Restore.Restore:hover {
+  color: rgb(164,0,1);
+  background-color: white;
+  border: 1px solid rgb(164,0,1);
+}

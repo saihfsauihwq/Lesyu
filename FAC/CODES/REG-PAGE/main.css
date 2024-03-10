@@ -1,0 +1,159 @@
+.Container {
+  padding: 20px 0 0 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Reg-Form {
+  width: 100%;
+    height: 100%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+
+}
+.Reg-Form-Title h1 {
+    color: rgb(164,0,1);
+    text-transform: uppercase;
+    font-weight: 500;
+    text-align: center;
+}
+.Reg-Form-Body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.Reg-Form-Body label {
+    color: rgb(164,0,1);
+    font-size: 15px;
+    font-weight: bold;
+    padding: 0 0 0 10px;
+    margin-top: 40px;
+
+}
+.Reg-Form-Body input {
+    width: 200px;
+    border: 2px solid rgb(164,0,1);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 0 0 0 10px;
+}
+.Reg-Form-Body input:focus {
+    outline: none;
+}
+.column1, .column2, .Column3 {
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  Padding: 0 20px 0 20px;
+}
+.info {
+  margin-top: 40px;
+}
+.column1, .column2 {
+  padding-top: 55px;
+}
+.info select {
+  width: 70px;
+  border: 2px solid rgb(164,0,1);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+.info select:focus {
+  outline: none;
+}
+.status {
+  width: 200px;
+  border: 2px solid rgb(164,0,1);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding: 0 0 0 10px;
+}
+.status:focus {
+  outline: none;
+}
+.signupbtn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Sign_up {
+  margin-top: 20px;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(164,0,1);
+  padding: 10px 20px 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+.Sign_up:hover {
+  background-color: rgb(238, 165, 0);
+  color: rgb(164,0,1);
+}
+.checkbox {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.terms {
+  font-size: 12px;
+  display: inline-block;
+}
+.terms a {
+  color: rgb(164,0,1);
+}
+.check {
+width: 12px;
+color: rgb(164,0,1);
+vertical-align: middle;
+}
+.check:checked {
+color: rgb(164,0,1);
+}
+.login {
+  margin: 20px 0 10px 0;
+  font-size: 12px;
+  text-align: center;
+}
+.Year {
+  width: 200px;
+  border: 2px solid rgb(164,0,1);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding: 0 0 0 10px;
+  size: 5;
+  max-height: 150px;
+  overflow-y: auto;
+}
+.Year:focus {
+  outline: none;
+}
+.Profileup {
+  width: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Profileup img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid rgb(164,0,1);
+  margin: 0 auto;
+  display: block; 
+}
